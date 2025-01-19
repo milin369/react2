@@ -7,7 +7,7 @@ function ProductList() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Fetch products from the API
+ 
   useEffect(() => {
     axios
       .get('https://fakestoreapi.com/products')
